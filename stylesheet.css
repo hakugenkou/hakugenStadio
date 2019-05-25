@@ -66,7 +66,7 @@ header{
   width:1325px;
   padding:100px 0 100px 0;
   margin: 0px 10px;
-  background-image:url(picture/06.JPG);
+  background-image:url(picture/06.jpg);
   background-size:cover;
   position: relative;
 }
@@ -102,10 +102,10 @@ header{
 
 .about p{
   background-color: rgb(57, 1, 49,0.5);
-  color:rgb(235, 33, 33);
+  color:rgb(255, 255, 255);
   font-weight: bolder;
   font-family: monospace;
-  font-size: 15px;
+  font-size: 18px;
   margin: 0 120px;
   padding: 0 100px;
   text-align: left;
