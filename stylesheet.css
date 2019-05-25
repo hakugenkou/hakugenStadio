@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: cursive;
+  width: 100%;
 }
 
 header{
@@ -87,9 +88,10 @@ header{
   background-image: url(picture/10.jpg);
   background-size: cover;
   text-align: center;
-  background-color: #FFFFDD;
   margin:20px;
   height: 500px;
+  width:1325px;
+
 }
 
 .about h1{
@@ -121,6 +123,7 @@ header{
   background-size: cover;
   margin:20px;
   height: 500px;
+  width:1325px;
 }
 
 .hobby h1{
