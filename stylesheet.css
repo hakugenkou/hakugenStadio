@@ -1,0 +1,148 @@
+
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+header{
+  width: 100%;
+  position: fixed;
+  background-color:rgb(255, 255, 255,0.5);
+  z-index: 1;
+}
+.menu{
+  float: left;
+}
+
+.menu_ul{
+  list-style: none;
+  float: left;
+  margin:2px 0 5px 0;
+
+}
+
+.menu_ul li{
+  display: inline-block;
+  font-size: 25px;
+  padding: 0 5px;
+  font-family: "Roboto" , "sans-serif";
+}
+
+.menu_ul li :hover{
+  border: 2px solid black;
+}
+
+.menu_ul li a{
+  text-decoration: none;
+  padding: 0 8px;
+}
+
+.li_top a{
+  border: 2px groove black;
+  color: #FF4F02;
+}
+
+.QA{
+  display: none;
+}
+
+.btn-sns{
+  font-size: 25px;
+  float: right;
+  margin: 0 50px;
+}
+.insta_btn {
+  color: #FFCC33;
+  text-decoration: none;
+}
+.twitter_btn{
+  color: #FFCC33;
+  text-decoration: none;
+}
+
+.wrapper-top {
+  height:300px;
+  width:1325px;
+  padding:100px 0 100px 0;
+  margin: 0px 10px;
+  background-image:url(picture/06.jpg);
+  background-size:cover;
+  position: relative;
+}
+
+.container {
+  background-color:rgb(187, 55, 71,0.3);
+  font-size: 26px;
+  font-weight: 900;
+  margin: 5px;
+  margin-right:10px;
+  color:rgb(255, 255, 255);
+  position:absolute;
+  top: 200px;
+  right: 5px;
+
+}
+
+ .about{
+  background-image: url(picture/10.jpg);
+  background-size: cover;
+  text-align: center;
+  background-color: #FFFFDD;
+  margin:20px;
+  height: 500px;
+}
+
+.about h1{
+  font-family: sans-serif;
+  padding: 10px 0 0 0;
+  color:#FF8856;
+}
+
+.about p{
+  background-color: rgb(57, 1, 49,0.5);
+  color:rgb(235, 33, 33);
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: 15px;
+  margin: 0 120px;
+  padding: 0 100px;
+  text-align: left;
+}
+
+.about_img{
+  margin: 10px 30px 30px 200px;
+  text-align: left;
+  float: left;
+}
+
+.hobby{
+  text-align: center;
+  background-image:url(picture/01.jpg);
+  background-size: cover;
+  margin:20px;
+  height: 500px;
+}
+
+.hobby h1{
+  font-family: sans-serif;
+  margin: 10px 500px;
+  padding: 10px;
+  color:rgb(1, 135, 73);
+  background-color: rgb(255, 255, 255,0.5);
+}
+
+.video{
+  text-align: left;
+  margin: 30px 50px;
+  float:right;
+}
+
+.hobby p{
+  background-color:rgb(52, 78, 117,0.6);
+  font-family: monospace;
+  color: white;
+  font-size: 15px;
+  margin: 40px 620px 40px 40px;
+  padding:20px;
+  text-align: left;
+}
