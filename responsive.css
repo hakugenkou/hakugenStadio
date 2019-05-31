@@ -1,7 +1,7 @@
 @media (max-width: 670px) {
 .menu{
     width:100%;
-
+    margin:30px 0 0 0  ;
   }
 
 .menu_ul{
@@ -13,6 +13,7 @@
 .menu_ul li{
   float: left;
     background-color:rgb(255, 209, 73) ;
+    font-size: 20px;
 }
 
 
@@ -21,13 +22,15 @@ padding: 5px 0;
 }
 
 .wrapper-top{
-  margin:  0;
-  max-width: 100%;
+  margin: 20px 0 0 0;
+  width: 100%;
+  background-image:url(picture/06.5.JPG);
 }
 
 .container{
   margin: 200px 0;
   width: 100%;
+  font-size: 20px;
 }
 
 .about p{
@@ -39,7 +42,8 @@ padding: 5px 0;
 
 .about_img{
     text-align: center;
-    margin: 0 30px;
+    margin: 0 ;
+    width: 100%;
 }
 
   .hobby h1{
@@ -48,8 +52,9 @@ padding: 5px 0;
   }
 
   .hobby, .about{
-
+    height: 100%;
     width: 100%;
+    margin: 10px 0 0 0;
   }
 
   .hobby p{
@@ -59,7 +64,6 @@ padding: 5px 0;
 
   .video{
     float: left;
-    width: 50px;
-    margin: 0;
+    margin: 0 0 0 10px;
   }
 }
