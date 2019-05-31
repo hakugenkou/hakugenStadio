@@ -1,4 +1,4 @@
-@media (max-width: 860px) {
+@media (max-width: 670px) {
 .menu{
     width:100%;
 
@@ -6,19 +6,28 @@
 
 .menu_ul{
   float: none;
+  padding: 0;
+
 }
 
+.menu_ul li{
+  float: left;
+    background-color:rgb(255, 209, 73) ;
+}
+
+
 .menu_ul li a{
-  padding: 0 10px;
+padding: 5px 0;
 }
 
 .wrapper-top{
-  margin: 0;
-  width: 100%;
+  margin:  0;
+  max-width: 100%;
 }
 
 .container{
-  margin: 250px 0;
+  margin: 200px 0;
+  width: 100%;
 }
 
 .about p{
@@ -30,6 +39,7 @@
 
 .about_img{
     text-align: center;
+    margin: 0 30px;
 }
 
   .hobby h1{
@@ -49,5 +59,7 @@
 
   .video{
     float: left;
+    width: 50px;
+    margin: 0;
   }
 }
