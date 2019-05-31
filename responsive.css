@@ -1,0 +1,53 @@
+@media (max-width: 860px) {
+.menu{
+    width:100%;
+
+  }
+
+.menu_ul{
+  float: none;
+}
+
+.menu_ul li a{
+  padding: 0 10px;
+}
+
+.wrapper-top{
+  margin: 0;
+  width: 100%;
+}
+
+.container{
+  margin: 250px 0;
+}
+
+.about p{
+  float: left;
+  margin: 0 ;
+  padding: 0;
+  width: 100%;
+}
+
+.about_img{
+    text-align: center;
+}
+
+  .hobby h1{
+    text-align: center;
+      margin: 0 60px;
+  }
+
+  .hobby, .about{
+
+    width: 100%;
+  }
+
+  .hobby p{
+    float: left;
+    margin: 0;
+  }
+
+  .video{
+    float: left;
+  }
+}
