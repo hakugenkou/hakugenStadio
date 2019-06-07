@@ -4,13 +4,14 @@
 .menu{
   margin:10px;
   background-color:rgb(255, 209, 73) ;
-  width:1300px;
+  width:100%;
 }
 
 .menu_ul{
   list-style: none;
   float: left;
-  margin:2px 0 5px 0;
+  margin:2px 0 5px 5px;
+
 
 }
 
@@ -41,7 +42,7 @@
 .btn-sns{
   font-size: 25px;
   float: right;
-
+margin-right: 10px;
 }
 .insta_btn {
   color: #FFCC33;
@@ -55,7 +56,7 @@
 .wrapper-top {
   margin:50px 0 0 0 ;
   height: 450px;
-  width:1250px;
+  width:100%;
   float: left;
   background-image:url(picture/06.JPG);
   background-size:cover;
@@ -80,8 +81,8 @@
   text-align: center;
   float: left;
   margin:50px 0;
-  height: 500px;
-  width:1250px;
+  height: 100%;
+  width:100%;
 
 }
 
@@ -92,7 +93,7 @@
 }
 
 .about p{
-  width: 1000px;
+
   background-color: rgb(57, 1, 49,0.5);
   color:rgb(255, 255, 255);
   font-weight: bolder;
@@ -115,8 +116,8 @@
   background-image:url(picture/01.jpg);
   background-size: cover;
   margin:50px 0;
-  height: 500px;
-  width:1250px;
+  height: 100%;
+  width:100%;
 }
 
 .hobby h1{
